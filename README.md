@@ -20,7 +20,9 @@ The other thing to decide is whether to use the *insert*, *update* or *upsert* e
 
 ## Considerations
 
-The standard Account object has two fields for City: BillingCity and ShippingCity. At the same time, the standard Contact object has two other fields for City: MailingCity and OtherCity. For the sake of the exercice, I asumed that the mapping needed is from Account.BillingCity to Contact.MailingCity fields.
+The standard *Account* object has two fields for City: *BillingCity* and *ShippingCity*. At the same time, the standard *Contact* object has two other fields for City: *MailingCity* and *OtherCity*.
+
+For the sake of the exercice, I assumed that the mapping needed is from **Account.BillingCity** to **Contact.MailingCity** fields.
 
 ## About the solution
 
